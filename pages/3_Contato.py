@@ -8,7 +8,9 @@ st.write('renan.carneiro@okuscapital.com')
 
 with st.container():
     st.write("---")
-    st.header("Me envie um email!")
+    
+    # Center the header
+    st.header("<div style='text-align: center;'>Me envie um email!</div>", unsafe_allow_html=True)
     st.write('##')
 
     contact_form = """
