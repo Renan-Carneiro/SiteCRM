@@ -4,7 +4,7 @@ st.title('Contato')
 
 st.write('Renan Carneiro')
 st.write('32 999189393')
-st.write('renan.carneiro@okuscapital.com')
+st.write('renan.moraes@engenharia.ufjf.br')
 
 with st.container():
     st.write("---")
@@ -46,7 +46,7 @@ with st.container():
     </style>
 
     <div class="contact-form">
-        <form action="https://formsubmit.co/renan.carneiro@okuscapital.com" method="POST">
+        <form action="https://formsubmit.co/renan.moraes@engenharia.ufjf.br" method="POST">
             <input class="form-input" type="hidden" name="_captcha" value="false">
             <input class="form-input" type="text" name="name" placeholder="Seu nome" required>
             <input class="form-input" type="email" name="email" placeholder="Seu email" required>
